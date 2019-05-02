@@ -1,0 +1,66 @@
+.logo {
+	float: left; 	
+	padding-top: 6px;
+}
+
+.top {
+	font-family: serif;
+    color: #fbfbfb	;
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+	padding-top: 5px;
+}
+.top1{    
+	padding-top: 3%;
+    font-size: 20px;
+    margin-right: 20%;
+    color: #fbfbfb;
+	text-align:center;
+    }
+.img {
+    padding-bottom: 7px;
+}
+@media screen and ( max-width: 768px ) {
+	.top {
+    padding-left: 0%;
+	font-size: 17px;
+    float: none;
+	padding-top:10px;
+  }
+  .top1{    
+	margin-top: -5%;
+	padding-top: 2%;
+    margin-left: 18%;
+    margin-right: 0%;
+  }
+}
+@media screen and ( max-width: 1024px ) {
+	.top {
+	font-size: 17px;
+    padding-top: 24px;
+	}
+}
+@media screen and ( min-width: 1300px ) {
+	.top1 {
+	padding-top: 3%;
+    font-size: 20px;
+	margin-right: 25%;
+	}
+}
+@media screen and ( max-width: 768px ) {
+	.img {
+	margin-left:0%;
+	}
+}
+ body {   
+	
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-color: seashell;
+ }
