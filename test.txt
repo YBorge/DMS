@@ -1,0 +1,3 @@
+../../../data/MRS_2012/2012_PRIVATE/201200940419HPNMR001001.JPG
+
+SELECT `Batch_no`,MID(`Path`,37,8),COUNT(*) FROM `mrs_indexing` where Batch_no='2012_PRIVATE' group by `Batch_no`,MID(`Path`,37,8)
